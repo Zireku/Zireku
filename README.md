@@ -133,10 +133,6 @@ The same engine sits behind both the bot and the HTTP API, so a quote rendered i
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Zireku&bg_color=0f0c29&color=d6d3f0&line=a78bfa&point=ffffff&area=true&area_color=a78bfa&hide_border=true&radius=8" alt="Contribution activity graph" width="100%" />
-
-<br/><br/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zireku/Zireku/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zireku/Zireku/output/github-snake.svg" />
