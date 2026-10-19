@@ -10,7 +10,7 @@
 
 [![Website](https://img.shields.io/badge/zireku.com-0f0c29?style=for-the-badge&logo=googlechrome&logoColor=a78bfa)](https://zireku.com)
 [![GitHub followers](https://img.shields.io/github/followers/Zireku?style=for-the-badge&logo=github&color=302b63&labelColor=0f0c29)](https://github.com/Zireku)
-![Profile views](https://komarev.com/ghpvc/?username=Zireku&style=for-the-badge&color=302b63&labelColor=0f0c29&label=VIEWS)
+[![Profile views](https://hits.sh/github.com/Zireku.svg?style=for-the-badge&color=302b63&labelColor=0f0c29&label=VIEWS)](https://hits.sh/github.com/Zireku/)
 
 </div>
 
