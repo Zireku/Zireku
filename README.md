@@ -60,41 +60,6 @@ flowchart LR
 
 ---
 
-### [`zireku-canvas`](https://github.com/Zireku/zireku-canvas)
-
-A pixel-accurate renderer for WhatsApp iOS-style quote bubbles, channel and group info cards, a QRIS builder, and a social media showcase generator. It runs on `@napi-rs/canvas`, with its own typography layer for text wrapping, emoji and mixed-script handling.
-
-```mermaid
-flowchart LR
-    A([WhatsApp message]) --> B[Baileys socket]
-    B --> C{Command router}
-    C -->|quote / card / qris| D[(Task queue)]
-    D --> E[Canvas worker]
-
-    subgraph Engine [zireku-canvas]
-        direction TB
-        E --> F[Layout + typography]
-        F --> G[Image processing]
-        G --> H[SVG + canvas compositing]
-    end
-
-    H --> I[PNG / WebP buffer]
-    I --> J[Send back to chat]
-
-    K([REST client]) --> L[Nginx + Cloudflare]
-    L --> M[Express API]
-    M --> D
-
-    classDef edge fill:#1e1b4b,stroke:#a78bfa,color:#fff;
-    classDef core fill:#302b63,stroke:#a78bfa,color:#fff;
-    class A,K edge;
-    class B,C,D,E,M core;
-```
-
-The same engine sits behind both the bot and the HTTP API, so a quote rendered in a chat and one fetched from an endpoint come out identical.
-
----
-
 ## Stack
 
 <div align="center">
